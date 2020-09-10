@@ -1,6 +1,6 @@
 
 body{
-    background-image:url("../images/back.jpg");
+    background-color:white;
 	background-repeat: no-repeat;
 	background-size: cover;
 	height:100%;
@@ -10,10 +10,14 @@ body{
 
 p{
 	color:black;
-	font-size:30px;
-	padding-right: 40px;
+	font-size:25px;
+	padding-left: 450px;
+  padding-right: 400px;
+
 }
- 
+
+
+
 ol{
 	color:black;
 	font-size:30px;
@@ -27,28 +31,30 @@ ul{
 nav ul li {
   list-style-type: none;
   display:flex;
-  float:center;
-  padding:20px;
+  padding:5px;
   color: #c24513;
-
+align:right;
 }
+
 
 nav ul {
   display: flex;
   padding-left: 450px;
   border:#611e03;
-  float:center;
-  font-size: 50px;   
+  float:right;
+  font-size: 30px;   
 }
 
 nav ul li a:hover{
-	background-color:#c24513;
+	background-color:#f2d9ff;
+  border-radius: 6px;
+
 }
 
 h1{
-  
-  font-size: 80px;
-  color: black;
+  padding-top: 120px;
+  font-size: 70px;
+  color: #ab34eb;
   margin: 40px;
   padding-left: 40px;
   text-align: center;
@@ -56,15 +62,22 @@ h1{
 
 h2{
   
-  font-size: 56px;
+  font-size: 40px;
   color: black;
   margin: 40px;
   padding-left: 40px;
   text-align: center;
 }
 
-
-img 1{
+img{
+padding-left: 400px;
+border-radius: 50%;
+background-image: url("../images/star.gif");
+background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 300px;
+}
+/**img 1{
   display: block;
   margin-left: auto;
   margin-right: auto;
