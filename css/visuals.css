@@ -18,10 +18,9 @@ p{
 nav ul li {
   list-style-type: none;
   display:flex;
-  float:center;
-  padding:20px;
+  padding:5px;
   color: #c24513;
-
+align:right;
 }
 
 
@@ -29,8 +28,8 @@ nav ul {
   display: flex;
   padding-left: 450px;
   border:#611e03;
-  float:center;
-  font-size: 50px;   
+  float:right;
+  font-size: 30px;   
 }
 
 nav ul li a:hover{
@@ -40,8 +39,8 @@ nav ul li a:hover{
 }
 
 h1{
-  
-  font-size: 60px;
+  padding-top: 120px;
+  font-size: 70px;
   color: #ab34eb;
   margin: 40px;
   padding-left: 40px;
